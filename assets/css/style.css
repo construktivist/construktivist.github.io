@@ -1,0 +1,141 @@
+header {
+    background-color: #343a40;
+}
+
+body {
+    background-color: #414950;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: white;
+    font-family: Lexend, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    margin-right: 20px;
+}
+
+.btn:hover {
+    color:white;
+}
+
+header .container .row nav {
+    padding: 1rem 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects {
+    padding: 40px;
+}
+
+.project-card {
+    background-color: #67737E;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.project-card:hover {
+    box-shadow: 10px 10px 40px #2c2c2c;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+}
+
+.project-card-title {
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 10px;
+}
+
+.project-card-title h3 {
+    color: #414950;
+}
+
+.project-card-copy {
+    padding: 20px;
+}
+
+.project-card-links {
+    padding: 20px;
+}
+
+.btn {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.about {
+    padding: 40px;
+}
+
+.about-card {
+    background-color: #67737E;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.about-copy {
+    color: white;
+}
+
+.about-links {
+    margin-top: 20px;
+}
+
+.about-links a {
+    color: black;
+}
+
+i {
+    margin: 10px;
+}
+
+.bi-github::before, .bi-linkedin::before {
+    font-size: 2rem;
+    background: white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.bi-github:hover:before, .bi-linkedin:hover:before {
+    background-color: orangered;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        text-align: left;
+    }
+    header {
+        padding: 20px;
+    }
+    .navbar-nav {
+        justify-content: left;
+    }
+    .projects {
+        padding: 100px;
+    }
+    .project-card {
+        max-width: 45%;
+    }
+    .about {
+        padding: 0 100px;
+    }
+}
+
